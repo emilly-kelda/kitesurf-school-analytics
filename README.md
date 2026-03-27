@@ -13,7 +13,6 @@ This project simulates and analyzes the operations of a kitesurf school through 
 
 ### Project Architecture
 
-```text
 seed.py → bookings.csv → watersports.db (SQLite)
                          → analysis.ipynb (pandas)
                          → app.py (Streamlit dashboard)
