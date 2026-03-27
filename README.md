@@ -2,7 +2,7 @@
 
 End-to-end data analytics project: SQL, pandas & Streamlit dashboard for kitesurf school operations
 
-# Overview
+## Overview
 
 This project simulates and analyzes the operations of a kitesurf school using a complete data pipeline:
 
@@ -10,32 +10,32 @@ Data Generation → Database → Analysis → Interactive Dashboard
 
 The goal is to demonstrate how data systems and analytics can improve pricing, operations, and profitability in the watersports industry.
 
-# Project Architecture
+## Project Architecture
 seed.py → bookings.csv → SQLite (watersports.db)
         → analysis.ipynb (pandas + insights)
         → app.py (Streamlit dashboard)
         
-# Tech Stack
+## Tech Stack
 Python (pandas)
 SQLite (database)
 Streamlit (dashboard)
 Plotly & Matplotlib (visualization)
 
-## What This Project Covers
+# What This Project Covers
 
-# Data Engineering
+### Data Engineering
 Synthetic dataset generation (300 bookings)
 Seasonal pricing logic
 SQLite database creation
 
-# Data Analysis (Colab / Notebook)
+### Data Analysis (Colab / Notebook)
 Revenue and profit analysis
 Feature engineering (profit, revenue/hour)
 Seasonality trends
 Instructor performance
 Equipment utilization
 
-# Dashboard (Streamlit)
+### Dashboard (Streamlit)
 Interactive filters (sport, instructor, status)
 KPI metrics (revenue, profit, bookings)
 Visual insights:
@@ -47,28 +47,28 @@ SQL Explorer (run live queries)
 
 ## Key Business Insights
 
-# Profitability
+### Profitability
 Average profit ≈ 273 per session
 Profit decreases as session duration increases
 → Pricing inefficiency for longer sessions
 
-# Seasonality
+### Seasonality
 Peak months: January, July, August
 Low season: April, May
 
 → Strong seasonal demand patterns
 
-# Instructor Performance
+### Instructor Performance
 Pedro: highest total and average profit
 Marcos: lowest performance
 
 → Performance depends on both volume and efficiency
 
-# Efficiency
+### Efficiency
 Short sessions generate higher profit per session
 Revenue per hour varies significantly by sport
 
-# Equipment Strategy
+### Equipment Strategy
 Foil board and windsurf board drive most revenue
 Kitesurf equipment underutilized
 
@@ -80,7 +80,7 @@ Improve cancellation / no-show policies
 Invest in high-demand equipment
 Increase marketing during low season
 
-# Skills Demonstrated
+## Skills Demonstrated
 Data analysis (pandas)
 SQL querying and database design
 Feature engineering
@@ -88,7 +88,7 @@ Data visualization
 Dashboard development (Streamlit)
 Business problem solving
 
-# Conclusion
+### Conclusion
 
 This project demonstrates how raw operational data can be transformed into actionable insights and interactive tools to support decision-making in a real business context.
 
